@@ -1,5 +1,13 @@
+:host {
+  --scan-line-color: red;
+  --scan-line-stroke-width:2;
+  --scan-rect-color:green;
+  --scan-rect-stroke-width:2;
+  --mask-color: rgba(0,0,0,0.7);
+}
+
 .mask-rect {
-  fill:rgba(0,0,0,0.7);
+  fill:var(--mask-color);
   stroke-width:0;
 }
 
@@ -12,12 +20,12 @@ svg {
 }
 
 .scan-line {
-  stroke:rgb(255,0,0);
-  stroke-width:2
+  stroke:var(--scan-line-color);
+  stroke-width:var(--scan-line-stroke-width);
 }
 
 .scan-rect {
-  stroke:green;
-  stroke-width:2;
+  stroke:var(--scan-rect-color);
+  stroke-width:var(--scan-rect-stroke-width);
   fill-opacity:0.0;
 }
