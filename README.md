@@ -52,7 +52,7 @@ document.querySelector("view-finder").scanRegion = region;
 - Then you can use the element anywhere in your template, JSX, html etc
 
 ### Node Modules
-- Run `npm install camera-preview-component --save`
+- Run `npm install view-finder --save`
 - Put a script tag similar to this 
 
    ```html
