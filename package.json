@@ -1,5 +1,5 @@
 {
-  "name": "view-finder",
+  "name": "viewfinder-component",
   "version": "0.0.1",
   "description": "A viewfinder web component.",
   "main": "dist/index.cjs.js",

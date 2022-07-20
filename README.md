@@ -42,7 +42,7 @@ document.querySelector("view-finder").scanRegion = region;
 
    ```html
    <script type="module">
-     import { defineCustomElements } from 'https://cdn.jsdelivr.net/npm/view-finder/dist/esm/loader.js';
+     import { defineCustomElements } from 'https://cdn.jsdelivr.net/npm/viewfinder-component/dist/esm/loader.js';
      defineCustomElements();
    </script>
    ```
@@ -52,21 +52,16 @@ document.querySelector("view-finder").scanRegion = region;
 - Then you can use the element anywhere in your template, JSX, html etc
 
 ### Node Modules
-- Run `npm install view-finder --save`
+- Run `npm install viewfinder-component --save`
 - Put a script tag similar to this 
 
    ```html
    <script type="module">
-     import { defineCustomElements } from 'node_modules/view-finder/dist/esm/loader.js';
+     import { defineCustomElements } from 'node_modules/viewfinder-component/dist/esm/loader.js';
      defineCustomElements();
    </script>
    ```
    
    in the head of your index.html
    
-- Then you can use the element anywhere in your template, JSX, html etc
-
-### In a stencil-starter app
-- Run `npm install view-finder --save`
-- Add an import to the npm packages `import view-finder;`
 - Then you can use the element anywhere in your template, JSX, html etc
