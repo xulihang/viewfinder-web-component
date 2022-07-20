@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+    <title>Stencil Component Starter</title>
+
+    <script type="module" src="/build/view-finder.esm.js"></script>
+    <script nomodule src="/build/view-finder.js"></script>
+  </head>
+  <body>
+    <view-finder width="1280" height="720" preserve-aspect-ratio="xMidYMid slice"></view-finder>
+    <script>
+      const x = 1280*0.25;
+      const y = 720*0.25;
+      const w = 1280*0.5;
+      const h = 720*0.5;
+      const region = {"left":x,"top":y,"width":w,"height":h};
+      console.log(region);
+      document.querySelector("view-finder").scanRegion = region;
+    </script>
+  </body>
+</html>
