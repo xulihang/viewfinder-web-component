@@ -2,6 +2,7 @@
 
 Viewfinder web component for barcode scanning.
 
+![screenshot](https://github.com/xulihang/viewfinder-web-component/raw/main/screenshot.jpg)
 
 ### Usage
 
