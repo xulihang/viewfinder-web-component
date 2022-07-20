@@ -1,7 +1,7 @@
 {
   "name": "view-finder",
   "version": "0.0.1",
-  "description": "Stencil Component Starter",
+  "description": "A viewfinder web component.",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
   "es2015": "dist/esm/index.mjs",
@@ -12,11 +12,18 @@
   "unpkg": "dist/view-finder/view-finder.esm.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ionic-team/stencil-component-starter.git"
+    "url": "https://github.com/xulihang/viewfinder-web-component.git"
   },
   "files": [
     "dist/",
     "loader/"
+  ],
+  "keywords":[
+    "barcode",
+    "camera",
+    "mask",
+    "web component",
+    "viewfinder"
   ],
   "scripts": {
     "build": "stencil build --docs",
