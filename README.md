@@ -4,6 +4,8 @@ Viewfinder web component for barcode scanning.
 
 ![screenshot](https://github.com/xulihang/viewfinder-web-component/raw/main/screenshot.jpg)
 
+[Online barcode scanner demo](https://starlit-duckanoo-55c6c9.netlify.app/)
+
 ### Usage
 
 In your HTML, add the component:

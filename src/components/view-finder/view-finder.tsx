@@ -17,6 +17,7 @@ export class ViewFinder {
   @Prop() height: number;
   @Prop() scanRegion: ScanRegion;
   @Prop() preserveAspectRatio?: string;
+
   render() {
     return (
       <Host>
