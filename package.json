@@ -1,6 +1,6 @@
 {
   "name": "viewfinder-component",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A viewfinder web component.",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",

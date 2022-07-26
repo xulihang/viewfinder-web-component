@@ -12,15 +12,6 @@
     <view-finder 
       style="--scan-line-color:orange;
              --scan-rect-color:orange;"
-      width="1280" height="720" preserve-aspect-ratio="xMidYMid slice"></view-finder>
-    <script>
-      const x = 1280*0.25;
-      const y = 720*0.25;
-      const w = 1280*0.5;
-      const h = 720*0.5;
-      const region = {"left":x,"top":y,"width":w,"height":h};
-      console.log(region);
-      document.querySelector("view-finder").scanRegion = region;
-    </script>
+      width="1280" height="720" left="320" right="960" top="180" bottom="540" preserve-aspect-ratio="xMidYMid slice"></view-finder>
   </body>
 </html>

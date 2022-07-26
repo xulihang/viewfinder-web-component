@@ -15,25 +15,20 @@ In your HTML, add the component:
 ```
 
 
-You can define the width, the height and the styles like this:
+You can define the width, the height, the scan region and the styles like this:
 
 ```html
 <view-finder 
   style="--scan-line-color:orange;
          --scan-rect-color:orange;"
-  width="1280" height="720" preserve-aspect-ratio="xMidYMid slice">
+  width="1280"
+  height="720"
+  left="320"
+  right="960"
+  top="180"
+  bottom="540"
+  preserve-aspect-ratio="xMidYMid slice">
 </view-finder>
-```
-
-You can define the `scanRegion` props in JavaScript:
-
-```js
-const x = 1280*0.25;
-const y = 720*0.25;
-const w = 1280*0.5;
-const h = 720*0.5;
-const region = {"left":x,"top":y,"width":w,"height":h};
-document.querySelector("view-finder").scanRegion = region;
 ```
 
 ## Install this component
