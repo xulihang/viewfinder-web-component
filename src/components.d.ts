@@ -5,14 +5,16 @@
  * It contains typing information for all components that exist in this project.
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
+import { region } from "./components/view-finder/view-finder";
 export namespace Components {
     interface ViewFinder {
-        "bottom": number;
+        "bottom"?: number;
         "height": number;
-        "left": number;
+        "left"?: number;
         "preserveAspectRatio"?: string;
-        "right": number;
-        "top": number;
+        "regions"?: region[];
+        "right"?: number;
+        "top"?: number;
         "width": number;
     }
 }
@@ -33,6 +35,7 @@ declare namespace LocalJSX {
         "height"?: number;
         "left"?: number;
         "preserveAspectRatio"?: string;
+        "regions"?: region[];
         "right"?: number;
         "top"?: number;
         "width"?: number;
