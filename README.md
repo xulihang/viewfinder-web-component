@@ -37,6 +37,25 @@ You can define the width, the height, the scan region and the styles like this:
 </view-finder>
 ```
 
+If you need to set multiple regions, then use the `regions` prop.
+
+```js
+document.querySelector("view-finder").regions = [
+  {
+    left:300,
+    top:180,
+    right: 500,
+    bottom: 540,
+  },
+  {
+    left:600,
+    top:180,
+    right: 800,
+    bottom: 540,
+  }
+];
+```
+
 ## Install this component
 
 ### Script tag
